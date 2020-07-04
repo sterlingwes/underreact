@@ -1,0 +1,18 @@
+{
+  "name": "underreact",
+  "description": "Another way to build declarative UI in JS without DOM diffing",
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "check-types": "yarn workspaces run tsc --noEmit",
+    "build": "yarn workspaces run tsc"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "semantic-release": "^17.0.8",
+    "semantic-release-monorepo-config": "^1.1.0",
+    "typescript": "^3.9.6"
+  }
+}

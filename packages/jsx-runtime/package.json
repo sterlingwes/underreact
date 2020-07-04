@@ -1,0 +1,7 @@
+{
+  "name": "@underreact/jsx-runtime",
+  "version": "0.1.0",
+  "description": "JSX factory method for creating DOM elements",
+  "main": "dist/index.js",
+  "license": "MIT"
+}

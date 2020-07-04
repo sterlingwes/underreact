@@ -2,6 +2,9 @@
   "name": "@underreact/babel-plugin-transform-ur-jsx",
   "version": "0.1.0",
   "description": "Babel plugin for converting JSX into DOM element creation calls",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {

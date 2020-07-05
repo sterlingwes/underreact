@@ -3,7 +3,7 @@
   "compilerOptions": {
     "allowJs": true,
     "target": "es5",
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "outDir": "dist",
     "declaration": true

@@ -1,3 +1,10 @@
+# [@underreact/jsx-runtime-v1.0.2](https://github.com/sterlingwes/underreact/compare/@underreact/jsx-runtime-v1.0.1...@underreact/jsx-runtime-v1.0.2) (2020-07-05)
+
+
+### Bug Fixes
+
+* **jsx-runtime:** element creation with jsx in functions ([a27040a](https://github.com/sterlingwes/underreact/commit/a27040a79cfb50710a14ce4e9dce5ee4ac0a500e))
+
 # [@underreact/jsx-runtime-v1.0.1](https://github.com/sterlingwes/underreact/compare/@underreact/jsx-runtime-v1.0.0...@underreact/jsx-runtime-v1.0.1) (2020-07-04)
 
 

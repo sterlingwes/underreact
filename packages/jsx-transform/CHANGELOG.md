@@ -1,3 +1,10 @@
+# [@underreact/babel-plugin-transform-ur-jsx-v1.0.1](https://github.com/sterlingwes/underreact/compare/@underreact/babel-plugin-transform-ur-jsx-v1.0.0...@underreact/babel-plugin-transform-ur-jsx-v1.0.1) (2020-07-05)
+
+
+### Bug Fixes
+
+* **transform:** issue with _jsx import reference & simplify API ([c406c0f](https://github.com/sterlingwes/underreact/commit/c406c0f38b8781a9b21894b7da8492b69a94a457))
+
 # @underreact/babel-plugin-transform-ur-jsx-v1.0.0 (2020-07-04)
 
 

@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should-allow-expression-children 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var jsx = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: {},
+  c: [\\"a\\" + \\"b\\" + \\"c\\", 1 + 2 * 3]
+});"
+`;
+
+exports[`should-allow-module-constructor 1`] = `
+"\\"use strict\\";
+
+var _jsxConstructor = babelHelpers.interopRequireDefault(require(\\"jsx-constructor\\"));
+
+var object = (0, _jsxConstructor[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: {},
+  c: [(0, _jsxConstructor[\\"default\\"])({
+    i: 0,
+    e: \\"strong\\",
+    a: {},
+    c: [\\"Hello,\\"]
+  }), \\" world!\\"]
+});"
+`;
+
+exports[`should-allow-use-variables-default 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var UppercaseVariable = true;
+var lowercaseVariable = true; // Include attribute named after the variables to ensure variables are only recognized for elements
+
+var jsxA = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: UppercaseVariable,
+  a: {
+    UppercaseVariable: \\"\\"
+  },
+  c: null
+});
+var jsxB = (0, _jsxRuntime[\\"default\\"])({
+  i: 1,
+  e: UppercaseVariable,
+  a: {
+    UppercaseVariable: \\"\\"
+  },
+  c: []
+});
+var jsxC = (0, _jsxRuntime[\\"default\\"])({
+  i: 2,
+  e: UppercaseVariable,
+  a: {
+    UppercaseVariable: \\"\\"
+  },
+  c: [UppercaseVariable]
+});
+var jsxD = (0, _jsxRuntime[\\"default\\"])({
+  i: 3,
+  e: \\"lowercaseVariable\\",
+  a: {
+    lowercaseVariable: \\"\\"
+  },
+  c: null
+});
+var jsxE = (0, _jsxRuntime[\\"default\\"])({
+  i: 4,
+  e: \\"lowercaseVariable\\",
+  a: {
+    lowercaseVariable: \\"\\"
+  },
+  c: []
+});
+var jsxF = (0, _jsxRuntime[\\"default\\"])({
+  i: 5,
+  e: \\"lowercaseVariable\\",
+  a: {
+    lowercaseVariable: \\"\\"
+  },
+  c: [lowercaseVariable]
+});"
+`;
+
+exports[`should-allow-valueless-attributes 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var object = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: {},
+  c: [(0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"strong\\",
+    a: {
+      veryStrong: true,
+      ignoreMe: undefined,
+      ignoreMeToo: null,
+      veryExplicit: true
+    },
+    c: [\\"Hello,\\"]
+  }), \\" world!\\"]
+});"
+`;
+
+exports[`should-include-extra-space 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var jsx = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"jsx\\",
+  a: {},
+  c: [\\"\\\\n    \\", (0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"a\\",
+    a: {},
+    c: null
+  }), \\"\\\\n    \\", (0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"b\\",
+    a: {},
+    c: null
+  }), \\" \\\\n    \\", (0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"c\\",
+    a: {},
+    c: null
+  }), \\"\\\\n    \\", (0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"d\\",
+    a: {},
+    c: null
+  }), \\"\\\\n  \\"]
+});"
+`;
+
+exports[`should-not-use-variables-by-default 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var Variable = true;
+var jsxA = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: Variable,
+  a: {},
+  c: null
+});
+var jsxB = (0, _jsxRuntime[\\"default\\"])({
+  i: 1,
+  e: Variable,
+  a: {},
+  c: []
+});
+var jsxC = (0, _jsxRuntime[\\"default\\"])({
+  i: 2,
+  e: Variable,
+  a: {},
+  c: [Variable]
+});"
+`;
+
+exports[`should-nullify-children-in-closing-elements 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var jsxA = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: {},
+  c: []
+});
+var jsxB = (0, _jsxRuntime[\\"default\\"])({
+  i: 1,
+  e: \\"div\\",
+  a: {},
+  c: null
+});"
+`;
+
+exports[`should-output-object 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var jsx = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"html\\",
+  a: {
+    lang: \\"en\\"
+  },
+  c: [(0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"head\\",
+    a: {},
+    c: [(0, _jsxRuntime[\\"default\\"])({
+      i: 0,
+      e: \\"meta\\",
+      a: {
+        charSet: \\"utf8\\"
+      },
+      c: null
+    }), (0, _jsxRuntime[\\"default\\"])({
+      i: 0,
+      e: \\"title\\",
+      a: {},
+      c: [\\"A JSX Test\\"]
+    })]
+  }), (0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"body\\",
+    a: {},
+    c: [(0, _jsxRuntime[\\"default\\"])({
+      i: 0,
+      e: \\"div\\",
+      a: {
+        id: \\"container\\"
+      },
+      c: [(0, _jsxRuntime[\\"default\\"])({
+        i: 0,
+        e: \\"p\\",
+        a: {},
+        c: [\\"Just a basic JSX transformation\\"]
+      })]
+    })]
+  })]
+});"
+`;
+
+exports[`should-use-underreact-runtime-default 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var ComponentA = function ComponentA() {
+  return (0, _jsxRuntime[\\"default\\"])({
+    i: 0,
+    e: \\"div\\",
+    a: {},
+    c: [\\"This is ComponentA\\"]
+  });
+};
+
+var ComponentB = function ComponentB() {
+  return (0, _jsxRuntime[\\"default\\"])({
+    i: 1,
+    e: \\"div\\",
+    a: {},
+    c: [\\"This is ComponentB\\"]
+  });
+};
+
+var MyOtherComponent = function MyOtherComponent(_ref) {
+  var someValue = _ref.someValue;
+  var Component = someValue ? ComponentA : ComponentB;
+  return (0, _jsxRuntime[\\"default\\"])({
+    i: 2,
+    e: Component,
+    a: {},
+    c: null
+  });
+};
+
+var object = (0, _jsxRuntime[\\"default\\"])({
+  i: 3,
+  e: \\"div\\",
+  a: {},
+  c: [(0, _jsxRuntime[\\"default\\"])({
+    i: 3,
+    e: \\"strong\\",
+    a: {},
+    c: [\\"Hello,\\"]
+  }), \\" world!\\", (0, _jsxRuntime[\\"default\\"])({
+    i: 3,
+    e: MyOtherComponent,
+    a: {
+      someValue: true
+    },
+    c: null
+  }), (0, _jsxRuntime[\\"default\\"])({
+    i: 3,
+    e: ComponentA,
+    a: {},
+    c: [(0, _jsxRuntime[\\"default\\"])({
+      i: 3,
+      e: ComponentB,
+      a: {},
+      c: [(0, _jsxRuntime[\\"default\\"])({
+        i: 3,
+        e: \\"div\\",
+        a: {},
+        c: null
+      })]
+    })]
+  })]
+});"
+`;
+
+exports[`should-work-on-text-children 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var jsx = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: {},
+  c: [\\"Hello, world! Hello world, again. And one more time.\\"]
+});"
+`;
+
+exports[`should-work-with-members 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var object = {
+  a: 1,
+  b: {
+    c: 2
+  }
+};
+var jsxA = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: object.a,
+  a: {},
+  c: null
+});
+var jsxB = (0, _jsxRuntime[\\"default\\"])({
+  i: 1,
+  e: object.b.c,
+  a: {},
+  c: null
+});
+var jsxC = (0, _jsxRuntime[\\"default\\"])({
+  i: 2,
+  e: object.a,
+  a: {},
+  c: []
+});
+var jsxD = (0, _jsxRuntime[\\"default\\"])({
+  i: 3,
+  e: object.b.c,
+  a: {},
+  c: []
+});
+var jsxE = (0, _jsxRuntime[\\"default\\"])({
+  i: 4,
+  e: object.a,
+  a: {},
+  c: [object.a]
+});
+var jsxF = (0, _jsxRuntime[\\"default\\"])({
+  i: 5,
+  e: object.b.c,
+  a: {},
+  c: [object.b.c]
+});"
+`;
+
+exports[`should-work-with-namespaced-attributes 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var value3 = \\"value3\\";
+var value4 = \\"value4\\";
+var jsx = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: {
+    key1: \\"value1\\",
+    \\"ns:key2\\": \\"value2\\",
+    \\"ns:key3\\": value3,
+    key4: value4
+  },
+  c: []
+});"
+`;
+
+exports[`should-work-with-namespaces 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var jsxA = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"ns:thing\\",
+  a: {},
+  c: null
+});
+var jsxB = (0, _jsxRuntime[\\"default\\"])({
+  i: 1,
+  e: \\"ns:thing\\",
+  a: {},
+  c: []
+});"
+`;
+
+exports[`should-work-with-spread-attributes 1`] = `
+"\\"use strict\\";
+
+var _jsxRuntime = babelHelpers.interopRequireDefault(require(\\"@underreact/jsx-runtime\\"));
+
+var objectA = {
+  x1: 1,
+  y1: 2,
+  z1: 3
+};
+var objectB = {
+  x2: 1,
+  y2: 2,
+  z2: 3
+};
+var jsxA = (0, _jsxRuntime[\\"default\\"])({
+  i: 0,
+  e: \\"div\\",
+  a: babelHelpers[\\"extends\\"]({}, objectA),
+  c: []
+});
+var jsxB = (0, _jsxRuntime[\\"default\\"])({
+  i: 1,
+  e: \\"div\\",
+  a: babelHelpers[\\"extends\\"]({
+    a: 1,
+    b: 2
+  }, objectA),
+  c: []
+});
+var jsxC = (0, _jsxRuntime[\\"default\\"])({
+  i: 2,
+  e: \\"div\\",
+  a: babelHelpers[\\"extends\\"]({}, objectA, {
+    a: 1,
+    b: 2
+  }),
+  c: []
+});
+var jsxD = (0, _jsxRuntime[\\"default\\"])({
+  i: 3,
+  e: \\"div\\",
+  a: babelHelpers[\\"extends\\"]({
+    a: 1
+  }, objectA, {
+    b: 2
+  }),
+  c: []
+});
+var jsxE = (0, _jsxRuntime[\\"default\\"])({
+  i: 4,
+  e: \\"div\\",
+  a: babelHelpers[\\"extends\\"]({
+    a: 1
+  }, objectA, objectB, {
+    b: 2
+  }),
+  c: []
+});
+var jsxF = (0, _jsxRuntime[\\"default\\"])({
+  i: 5,
+  e: \\"div\\",
+  a: babelHelpers[\\"extends\\"]({
+    a: 1
+  }, objectA, {
+    b: 2
+  }, objectB, {
+    c: 3
+  }),
+  c: []
+});"
+`;

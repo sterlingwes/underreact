@@ -5,7 +5,7 @@ export interface ElementHierarchy {
   c: NodeChildren;
 }
 
-export type Factory = (props: JSXAttributes) => ElementHierarchy;
+export type Factory = (props: JSXAttributes) => HTMLElement;
 export type JSXAttributes = object;
 
 export type Maybe<T> = T | null | undefined;

@@ -48,14 +48,13 @@ export const createElement = ({
 }: ElementHierarchy): HTMLElement => {
   if (isFactory(element)) {
     const props = { ...attributes, children };
-    const computedJsxDef = element(props);
-    return createElement(computedJsxDef);
+    return element(props);
   }
 
   const el = applyAttributes(document.createElement(element), attributes);
   if (!children) return el;
 
-  children.forEach((child) => {
+  children.flat().forEach((child) => {
     const node = !isString(child) ? child : document.createTextNode(child);
     if (node === false) return;
     if (!validNode(node)) {

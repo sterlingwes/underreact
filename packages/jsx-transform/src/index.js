@@ -48,9 +48,9 @@ export default function ({ types: t }) {
       state.set(stateIndexKey, 0);
     }
 
+    const getCurrentElementIndex = () => state.get(stateIndexKey);
     const incrementElementIndex = createStateValueIncrementer(state, stateIndexKey);
     const { constructorModule } = state.get(stateConfigKey);
-    const elementIndex = state.get(stateIndexKey);
 
     /* ==========================================================================
      * Node Transformers
@@ -143,6 +143,7 @@ export default function ({ types: t }) {
     };
 
     const JSXElement = (node) => {
+      const elementIndex = getCurrentElementIndex();
       incrementElementIndex();
       const moduleImportIdentifier = addDefault(path, constructorModule);
       return t.callExpression(moduleImportIdentifier, [

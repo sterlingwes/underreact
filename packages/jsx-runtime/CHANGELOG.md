@@ -1,3 +1,10 @@
+# [@underreact/jsx-runtime-v1.1.0](https://github.com/sterlingwes/underreact/compare/@underreact/jsx-runtime-v1.0.2...@underreact/jsx-runtime-v1.1.0) (2020-07-06)
+
+
+### Features
+
+* **jsx-runtime:** event handling & dev run mode ([5276fd3](https://github.com/sterlingwes/underreact/commit/5276fd3ae72e2113d1cd0399fc5829097f8507ec))
+
 # [@underreact/jsx-runtime-v1.0.2](https://github.com/sterlingwes/underreact/compare/@underreact/jsx-runtime-v1.0.1...@underreact/jsx-runtime-v1.0.2) (2020-07-05)
 
 

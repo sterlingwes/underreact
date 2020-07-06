@@ -1,3 +1,10 @@
+# [@underreact/babel-plugin-transform-ur-jsx-v1.0.2](https://github.com/sterlingwes/underreact/compare/@underreact/babel-plugin-transform-ur-jsx-v1.0.1...@underreact/babel-plugin-transform-ur-jsx-v1.0.2) (2020-07-06)
+
+
+### Bug Fixes
+
+* **jsx-transform:** correct indices-per-element & new test scenarios ([895dad8](https://github.com/sterlingwes/underreact/commit/895dad8b8f3d3701ace789dc2eb5914098908df9))
+
 # [@underreact/babel-plugin-transform-ur-jsx-v1.0.1](https://github.com/sterlingwes/underreact/compare/@underreact/babel-plugin-transform-ur-jsx-v1.0.0...@underreact/babel-plugin-transform-ur-jsx-v1.0.1) (2020-07-05)
 
 

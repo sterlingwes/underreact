@@ -1,3 +1,10 @@
+# [@underreact/jsx-runtime-v1.1.1](https://github.com/sterlingwes/underreact/compare/@underreact/jsx-runtime-v1.1.0...@underreact/jsx-runtime-v1.1.1) (2020-07-10)
+
+
+### Bug Fixes
+
+* update runtime to improve dead code removal ([47263d6](https://github.com/sterlingwes/underreact/commit/47263d6e75d4683c23433fd668198123628e1be4))
+
 # [@underreact/jsx-runtime-v1.1.0](https://github.com/sterlingwes/underreact/compare/@underreact/jsx-runtime-v1.0.2...@underreact/jsx-runtime-v1.1.0) (2020-07-06)
 
 

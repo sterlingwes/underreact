@@ -1,0 +1,19 @@
+{
+  "name": "@underreact/renderer",
+  "version": "1.0.0",
+  "description": "Static HTML renderer",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "bin": {
+    "underreact-render": "./dist/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.3"
+  }
+}

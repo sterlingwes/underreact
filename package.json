@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.1.0",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
-    "semantic-release": "^17.0.8",
+    "semantic-release": "^19.0.3",
     "semantic-release-monorepo-config": "^1.1.0",
     "typescript": "^3.9.6",
     "yalc": "^1.0.0-pre.36"
